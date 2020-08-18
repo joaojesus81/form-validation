@@ -1,0 +1,13 @@
+body {
+  background-color: darkkhaki;
+}
+
+form {
+  background-color: grey;
+}
+
+.grid-container {
+  display: grid;
+  border: black;
+  border-width: 1;
+}
