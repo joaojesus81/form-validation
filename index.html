@@ -16,19 +16,22 @@
   <main>
     <form action="./user-created.html" method="get">
       <div class='grid-container'>
-        <div class='grid-item'>User Registration</div>
-        <div class='grid-item'>First Name</div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
-        <div class='grid-item'></div>
+        <div class='grid-header'>
+          <h3>User Registration</h3>
+        </div>
+        <div class='grid-lfname'><label for="fname">First Name</label></div>
+        <div class='grid-ifname'><input type="text" name="fname" id="fname" required></div>
+        <div class='grid-wfname' id='grid-wfname'></div>
+        <div class='grid-llname'><label for="lname">Last Name</label></div>
+        <div class='grid-ilname'><input type="text" name="lname" id="lname" required></div>
+        <div class='grid-wlname'></div>
+        <div class='grid-luname'><label for="uname">Username</label></div>
+        <div class='grid-iuname' id='grid-iuname'><input type="text" name="uname" id="uname" required></div>
+        <div class='grid-ldob'><label for="dob">Date of Birth</label></div>
+        <div class='grid-idob'><input type="date" name="dob" id="dob" required></div>
+        <div class='grid-wdob'></div>
+        <div class='grid-bsubmit'><button type="submit" id='sbutton'>Submit</button></div>
+        <div class='grid-bclear'><button type="reset" id='cbutton'>Clear</button></div>
       </div>
     </form>
   </main>
