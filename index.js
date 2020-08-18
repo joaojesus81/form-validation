@@ -1,5 +1,6 @@
 const submitButton = document.getElementById("sbutton");
 const unameInput = document.getElementById("uname");
+// const
 // console.dir(unameInput);
 
 const handleClick = (event) => {
